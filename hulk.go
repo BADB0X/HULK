@@ -21,6 +21,8 @@ import (
 	"strings"
 	"sync/atomic"
 	"syscall"
+	"crypto/tls"
+	"time"
 )
 
 const __version__  = "1.0.1"
