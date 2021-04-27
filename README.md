@@ -13,6 +13,17 @@ connection pool on the same hardware than Python version can.
 
 This tool targeted for stress testing and may really down badly configured server or badly made app. Use it carefully.
 
+How to install:
+
+Here is full Script for Termux
+
+Follow these commands 
+
+apt-get update && apt upgrade; pkg install git; pkg install python2; git clone https://github.com/BADB0X/HULK.git; cd; ls; cd hulk; ls
+
+python2 hulk.py < url>
+
+ Now u notice that the website server down now
 Examples:
 
     $ hulk -site http://example.com/test/ 2>/dev/null
