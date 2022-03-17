@@ -23,6 +23,8 @@ apt-get update && apt upgrade; pkg install git; pkg install python2; git clone h
 
 python2 hulk.py < url>
 
+cd HULK; python2 hulk.py (website link)
+
  Now u notice that the website server down now
 Examples:
 
